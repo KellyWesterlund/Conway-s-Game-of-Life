@@ -2,14 +2,13 @@
 An exercise to practice lists and loops
 
 
-# Conway's Game of Life
 import random
 import time 
 import copy
 WIDTH = 20
 HEIGHT = 10
 
-# create a list of list for the cells:
+# Create a list of lists for the cells:
 nextCells = []
 for x in range(WIDTH):
     column = []    # create a new column
